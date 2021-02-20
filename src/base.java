@@ -14,7 +14,11 @@ public class base {
 		// TODO Auto-generated method stub
 		
 		File f = new File("src");
-		File fs = new File(f, "ApiDemos-debug.apk");
+		//File fs = new File(f, "ApiDemos-debug.apk");
+		//File fs = new File(f, "Raaga_v3.0.15_apkpure.com.apk");
+		File fs = new File(f, "com.raaga.android.apk");
+
+
 		
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_3a_API_30_x86");
